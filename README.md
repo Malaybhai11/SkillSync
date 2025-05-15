@@ -1,36 +1,99 @@
-# SkillSync
-<!-- SkillSync - Personalized Learning & Productivity Dashboard
-Roadmap
-Phase 1: Planning & Setup
-- Define core features: User goals, daily tasks, YouTube/GitHub sync, Pomodoro, skill chart
-- Design wireframes: Use Figma or Pen & Paper
-- Choose stack: Frontend: Next.js (web) or Flutter (cross-platform)
-Backend: Firebase (fast), or Supabase (Postgres + auth)
-Phase 2: Authentication & User Onboarding
-- Email/Google login: Firebase Auth or Supabase Auth
-- Onboarding form: Ask for: name, goals (e.g., DSA, ML), time per day, platforms used
-- Store preferences: Firestore / Supabase DB
-Phase 3: Dashboard Core
-- Daily Goal Tracker: UI to log daily activity (text or buttons like: 'Completed DSA 1hr')
-- Streak System: Show streak bar and achievement badges
-- Pomodoro Timer: 25-5 work-break timer with stats saved
-- Skill Growth Chart: Use Charts.js or Recharts to plot progress weekly
-Phase 4: Smart Sync & API Integration
-- GitHub Sync: GitHub API (recent commits, activity per repo)
-- YouTube Progress: YouTube API (watch history, video bookmarks)
-- LeetCode Tracker (Optional): Scrape recent submissions or use Unofficial API
-- ChatGPT Assistant: OpenAI API - suggest what to learn next or generate daily plans
-Phase 5: Notes, Reflections & Calendar
-- Daily Reflection: "What did you learn today?" - Save in DB
-- Notepad: Markdown editor for code snippets, ideas
-- Calendar View: Show past activity, missed days, and upcoming goals
-Phase 6: UI Polish & Extra Features
-- Dark Mode: Always looks premium
-- Responsive UI: Mobile & desktop support
-- Export Progress: Let users download their progress PDF (use jsPDF)
-- Share Feature: "Share my growth" with LinkedIn-style card generator
-Phase 7: Deployment & Portfolio
-- Domain + Hosting: Vercel (for Next.js) / Firebase Hosting (for Flutter Web)
-- GitHub Repo: Add Readme with features, demo link, screenshots
-- Demo Video: Record a 1-min walkthrough with Loom or OBS
-- Portfolio Highlight: Write a blog: "How I built a smart learning dashboard -->
+# SkillSync 🚀  
+**Personalized Learning & Productivity Dashboard**
+
+## 🧭 Roadmap
+
+---
+
+### 📌 Phase 1: Planning & Setup
+- Define core features:
+  - User goals
+  - Daily task tracker
+  - YouTube/GitHub sync
+  - Pomodoro timer
+  - Skill progress chart
+- Design wireframes:
+  - Tools: Figma or Pen & Paper
+- Choose tech stack:
+  - **Frontend**: Next.js (web) or Flutter (cross-platform)
+  - **Backend**: Firebase (real-time) or Supabase (Postgres + auth)
+
+---
+
+### 🔐 Phase 2: Authentication & User Onboarding
+- Email/Google login via:
+  - Firebase Auth or Supabase Auth
+- Onboarding form:
+  - Collect: Name, learning goals (e.g., DSA, ML), daily time, preferred platforms
+- Store preferences:
+  - Firestore or Supabase DB
+
+---
+
+### 📊 Phase 3: Dashboard Core
+- **Daily Goal Tracker**:
+  - UI for logging progress (text input or buttons like "Completed DSA 1hr")
+- **Streak System**:
+  - Visual streak bar, achievement badges
+- **Pomodoro Timer**:
+  - 25-5 work/break intervals with usage stats
+- **Skill Growth Chart**:
+  - Weekly progress visualized using Charts.js or Recharts
+
+---
+
+### 🔄 Phase 4: Smart Sync & API Integration
+- **GitHub Sync**:
+  - Use GitHub API for recent commits/activity
+- **YouTube Progress**:
+  - Use YouTube API for watch history, bookmarks
+- **LeetCode Tracker (Optional)**:
+  - Scrape submissions or use unofficial API
+- **ChatGPT Assistant**:
+  - Use OpenAI API to:
+    - Suggest next topics
+    - Generate personalized daily plans
+
+---
+
+### 📝 Phase 5: Notes, Reflections & Calendar
+- **Daily Reflection**:
+  - Prompt: “What did you learn today?” (stored in DB)
+- **Notepad**:
+  - Markdown editor for ideas/code snippets
+- **Calendar View**:
+  - Display logged activities, missed days, future plans
+
+---
+
+### 🎨 Phase 6: UI Polish & Extra Features
+- Dark Mode 🌙
+- Responsive UI: Mobile + Desktop
+- Export Progress:
+  - Download progress as PDF via jsPDF
+- Share Feature:
+  - Generate “My Growth” cards for LinkedIn-style sharing
+
+---
+
+### 🚀 Phase 7: Deployment & Portfolio
+- **Hosting**:
+  - Vercel (Next.js) or Firebase Hosting (Flutter Web)
+- **GitHub Repo**:
+  - Include README with:
+    - Features
+    - Demo link
+    - Screenshots
+- **Demo Video**:
+  - 1-minute walkthrough using Loom or OBS
+- **Portfolio Highlight**:
+  - Write a blog: _“How I built a smart learning dashboard”_
+
+---
+
+## 💡 Vision
+SkillSync empowers learners to stay consistent, track their growth, and integrate tools they already use. Designed for self-taught developers, students, and professionals building new skills.
+
+---
+
+**Made with ❤️ by [Your Name]**
