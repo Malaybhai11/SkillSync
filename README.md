@@ -96,4 +96,4 @@ SkillSync empowers learners to stay consistent, track their growth, and integrat
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Bhagirath & Malay**
